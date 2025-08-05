@@ -7,7 +7,7 @@ body{
 }
  .container{
   background-color: lightgray;
-  height: 400px;
+  height: 600px;
   width: 400px;
   font-weight: 700;
   color: gray;
@@ -16,7 +16,9 @@ body{
   align-items: center;
   border-radius: 5px;
  }
-
+.xp{
+  
+}
  .total{
   font-size: 30px;
   font-weight: bold;
@@ -24,8 +26,20 @@ body{
   letter-spacing: 2px;
   border: none;
   margin-top: 10px;
-  text-align: center;
+ 
  }
+ img{
+  width: 20px;
+  height: 20px;
+ }
+
+.total_xp{
+  background-color: gold;
+  width: 50px;
+  height: 70px;
+  color: white;
+}
+
 
  .add{
   display: flex;
@@ -44,21 +58,14 @@ body{
  }
 
  #todo{
-  margin-left: 180px;
-  border: none;
+  /* margin-left: 180px;
+  border: none; */
   cursor: pointer;
- }
+}
 
- button{
-  margin-left: 50%;
-  transform: translate(-50%);
-  height: 30px;
-  width: 100px;
-  border: none;
-  border-radius: 5px;
-  background-color: darkgray;
-  color: white;
-  font-size: 20px;
-  cursor: pointer;
- }
+.total > div:last-child {
+  margin-left: auto;
+}
+
+
 
